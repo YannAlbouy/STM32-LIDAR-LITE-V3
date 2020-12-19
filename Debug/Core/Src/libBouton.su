@@ -1,0 +1,8 @@
+libBouton.c:22:5:boutonDistance	48	static
+libBouton.c:31:5:boutonVitesse	48	static
+libBouton.c:39:5:boutonChoix	32	static
+libBouton.c:46:6:clicBtnDistance	8	static
+libBouton.c:63:6:clicBtnVitesse	8	static
+libBouton.c:81:6:clicBtnInterface	8	static
+libBouton.c:99:6:clicBtnChoix	8	static
+libBouton.c:117:6:clicBtnValide	8	static

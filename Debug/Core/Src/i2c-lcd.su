@@ -1,0 +1,13 @@
+i2c-lcd.c:34:5:lcd_isConnected	16	static
+i2c-lcd.c:44:6:lcd_clear	24	static
+i2c-lcd.c:51:6:lcd_init	32	static
+i2c-lcd.c:908:6:lcd_affDistance	56	static
+i2c-lcd.c:949:6:lcd_interfacePrinc	96	dynamic
+i2c-lcd.c:1056:6:lcd_on	24	static
+i2c-lcd.c:1064:6:lcd_off	24	static
+i2c-lcd.c:1072:6:lcd_maVoiture	192	static
+i2c-lcd.c:1845:6:lcd_Croix	48	static
+i2c-lcd.c:1860:6:lcd_Veille	16	static
+i2c-lcd.c:1870:6:lcd_ModeAuto	64	static
+i2c-lcd.c:1922:6:lcd_Navig	24	static
+i2c-lcd.c:1959:6:lcd_transition	80	static
