@@ -24,9 +24,6 @@ void lcd_off(void);
 /* Fonction pour faire une voiture sur le LCD */
 void lcd_maVoiture(void);
 
-/* Fonction pour faire LA croix */
-void lcd_Croix(void);
-
 /* Fonction pour mettre l'ecran en veille */
 void lcd_Veille(int);
 
