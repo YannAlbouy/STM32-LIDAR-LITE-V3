@@ -1842,19 +1842,6 @@ void lcd_maVoiture(void)
 
 }
 
-void lcd_Croix(void)
-{
-	/*-----PIXEL 1-----*/
-	uint8_t cmdCroix[13]={0x1B, 0x44,0x08, 0x00, 0x17, 0x14, 0x1F, 0x05, 0x1D, 0x00, 0x00};
-	HAL_I2C_Master_Transmit(&hi2c1,LCD_ADD,cmdCroix,13,100);
-	HAL_Delay(1);
-
-	uint8_t croix1[1]={0x08};
-
-	HAL_I2C_Mem_Write(&hi2c1,LCD_ADD,0x01,1,croix1,1,100);
-	HAL_Delay(1);
-
-}
 
 /* Fonction pour mettre l'ecran en veille */
 void lcd_Veille(int tpsActif)
